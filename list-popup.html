@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus tracker</title>
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+    
+    <div id="wrapper">
+
+        <!-- Start sidebar -->
+        <div id="sidebar">
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="./images/logo.svg" alt="">
+                </a>
+            </div>
+
+            <div class="menu">
+                <p class="title-menu">Menu</p>
+                <ul>
+                    <li>
+                        <a href="./index.html"><img src="./images/039-id card.svg">Thành viên</a>
+                    </li>
+                    <li class="active">
+                        <a href="./list-car.html"><img src="./images/023-school bus.svg">Danh sách xe</a>
+                    </li>
+                    <li>
+                        <a href="./list-history-car.html"><img src="./images/043-folder.svg">Lịch sử xuống xe</a>
+                    </li>
+                    <li>
+                        <a href="./list-history-car-incidents.html"><img src="./images/ring-bell 1.svg">Thống kê sự cố</a>
+                    </li>
+                </ul>
+            </div>
+
+            <a href="#" class="btn-BGS"><img src="./images/Group 9160.svg" alt=""><span>BGS Edu</span></a>
+        </div>
+        <!-- End sidebar -->
+
+        <!-- Start main -->
+        <div id="main">
+            <header>
+                <div class="title">
+                    <img src="./images/Group 9289.svg" alt="">
+                    <h2>Lớp 6</h2>
+                </div>
+                <div class="box-admin">
+                    <img src="./images/Ellipse 46.svg" alt="" class="avatar-admin">
+                    <img src="./images/Arrow_drop_left.svg" alt="">
+                </div>
+            </header>
+
+            <main>
+                
+                <!-- Start modal create car -->
+                <div class="modal-car">
+                    <h2 class="title">Thêm xe mới</h2>
+                    <form action="">
+                        <label for="">Tên xe</label>
+                        <input type="text" name="" id="" placeholder="Nhập tên xe">
+                        <div class="btn-submit">
+                            <button type="reset">Hủy bỏ</button>
+                            <button type="submit">Lưu</button>
+                        </div>
+                    </form>
+                    <span class="close"><img src="./images/X.svg" alt=""></span>
+                </div>
+                <!-- End modal create car -->
+
+                <br><br>
+
+                  <!-- Start modal delete car -->
+                  <div class="modal-car">
+                    <h2 class="title">Xóa xe</h2>
+                    <form action="">
+                        <p class="notification">Bạn có chắc chắn muốn xóa xe này?</p>
+                        <div class="btn-submit">
+                            <button type="reset">Hủy bỏ</button>
+                            <button type="submit">Lưu</button>
+                        </div>
+                    </form>
+                    <span class="close"><img src="./images/X.svg" alt=""></span>
+                </div>
+                <!-- End modal delete car -->
+
+                <br><br>
+
+                <!-- ====================================== -->
+
+                <!-- Start modal create member -->
+                <div class="modal-car">
+                    <h2 class="title">Sửa học sinh</h2>
+                    <form action="">
+                        <label for="">Tên học sinh</label>
+                        <ul>
+                            <li>Phạm Ngọc Lan <img src="./images/X.svg" alt="" class="delete-member-input"></li>
+                            <li>Phạm Ngọc Lan <img src="./images/X.svg" alt="" class="delete-member-input"></li>
+                            <li>Phạm Ngọc Lan <img src="./images/X.svg" alt="" class="delete-member-input"></li>
+                            <li>Phạm Ngọc Lan <img src="./images/X.svg" alt="" class="delete-member-input"></li>
+                            <li>Phạm Ngọc Lan <img src="./images/X.svg" alt="" class="delete-member-input"></li>
+                            <li>Phạm Ngọc Lan <img src="./images/X.svg" alt="" class="delete-member-input"></li>
+                            <li>Phạm Ngọc Lan <img src="./images/X.svg" alt="" class="delete-member-input"></li>
+                            <input type="text" name="" id="">
+                        </ul>
+                        <div class="btn-submit">
+                            <button type="reset">Hủy bỏ</button>
+                            <button type="submit">Lưu</button>
+                        </div>
+                    </form>
+                    <span class="close"><img src="./images/X.svg" alt=""></span>
+                </div>
+                <!-- End modal create member -->
+
+                <br><br>
+
+                  <!-- Start modal delete member -->
+                  <div class="modal-car">
+                    <h2 class="title">Xóa điểm</h2>
+                    <form action="">
+                        <p class="notification">Bạn có chắc chắn muốn xóa điểm này? </p>
+                        <div class="btn-submit">
+                            <button type="reset">Hủy bỏ</button>
+                            <button type="submit">Lưu</button>
+                        </div>
+                    </form>
+                    <span class="close"><img src="./images/X.svg" alt=""></span>
+                </div>
+                <!-- End modal delete member -->
+
+                <br><br>
+
+            </main>
+        </div>
+        <!-- End main -->
+
+    </div>
+
+</body>
+</html>

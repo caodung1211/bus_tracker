@@ -1,0 +1,28 @@
+@font-face {
+    font-family: SF-Pro-Display-Bold;
+    src: url(./../fonts/SF-Pro-Display-Bold.otf);
+}
+@font-face {
+    font-family: SF-Pro-Display-Light;
+    src: url(./../fonts/SF-Pro-Display-Light.otf);
+}
+@font-face {
+    font-family: SF-Pro-Display-Medium;
+    src: url(./../fonts/SF-Pro-Display-Medium.otf);
+}
+@font-face {
+    font-family: SF-Pro-Display-Regular;
+    src: url(./../fonts/SF-Pro-Display-Regular.otf);
+}
+@font-face {
+    font-family: SF-Pro-Display-Semibold;
+    src: url(./../fonts/SF-Pro-Display-Semibold.otf);
+}
+
+$menu-btn: #C9C9D0;
+$main-color: #FF872B;
+$bg-success: #0084F4;
+$bg-fail: #D70000;
+$bg-permission: #00C48C;
+$bg-box: #F4F5F6;
+$width-sidebar: 302pxbackground: #F4F5F6;
